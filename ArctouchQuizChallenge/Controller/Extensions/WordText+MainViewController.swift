@@ -42,7 +42,7 @@ extension MainViewController: UITextFieldDelegate{
                 }else{
                     self.quizView.wordTextField.backgroundColor = UIColor(named: "customOrange")
                     UIView.animate(withDuration: 0.6) {
-                        self.quizView.wordTextField.backgroundColor = UIColor(named: "customOrange")
+                        self.quizView.wordTextField.backgroundColor = UIColor(named: "customGray")
                     }
                 }
             }
